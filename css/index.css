@@ -1,0 +1,233 @@
+.first
+{
+    background-image: url('../img/bg-header-desktop.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+.content1
+{
+    padding-bottom: 25px;
+}
+.img1
+{
+   
+   width: 8%;
+    padding: 150px 0px 70px 0px;
+}
+.sec,.third,.fourth,.fifth,.sixth
+{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.p1,.p2,.p4
+{
+    padding-top: 20px;
+    color: hsl(212, 6%, 54%);
+    font-family: 'Bai Jamjuree';
+    font-weight: 450;
+    font-size: 18px;
+}
+.two_butt
+{
+    text-align: center;
+    align-items: center;
+}
+.but1
+{
+    background-color:  hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 20px;
+    margin-right: 9px;
+    box-shadow: 2px 3px 2px hsl(171, 29%, 43%);
+   
+}
+.but2
+{
+    background-color:  hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px hsl(233, 31%, 49%);
+   
+}
+.but1 p,.but2 p
+{
+    padding:7px 14px ;
+    margin-bottom: 0px;
+    color: white;
+}
+.but1:hover
+{
+    background-color: hsl(171, 60%, 59%);
+  
+    cursor: pointer;
+}
+.but2:hover
+{
+    background-color: hsl(233, 90%, 71%);
+
+    cursor: pointer;
+}
+.content3
+{
+    padding-bottom: 30px;
+}
+.all
+{
+    padding-left: 100px;
+}
+.first_stick h2,.sec_stick h2 ,.third_stick h2
+{
+    font-size: 25px;
+    text-align: start;
+    color:hsl(210, 10%, 33%);
+
+}
+.first_stick p,.sec_stick p,.third_stick p
+{
+    font-size: 15px;
+    text-align: start;
+    color: hsl(212, 6%, 54%);
+    padding-bottom: 30px;
+}
+.icoo1 h2,.icoo2 h2 ,.icoo3 h2
+{
+    color:hsl(210, 10%, 33%);
+    padding-top: 60px;
+    font-size: 25px;
+}
+.icoo1 p,.icoo2 p,.icoo3 p
+{
+    font-size: 15px;
+    color: hsl(214, 9%, 68%);
+  
+
+}
+
+.icoo4
+{
+    margin: 120px 0px;
+}
+.foot
+{
+    background-color:  hsl(200, 14%, 96%);
+    padding: 15px 0px;
+}
+#thelast
+{
+    padding: 30px 0px;
+}
+h3
+{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: hsl(210, 3%, 64%);
+}
+h3:hover
+{
+    color:hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.lost
+{
+    margin-left: 100px;
+
+}
+.lost i
+{
+    padding-left: 20px;
+    font-size: 25px;
+     color:hsl(240, 1%, 29%) ;
+}
+.lost i:hover 
+{
+    color:hsl(171, 66%, 44%);
+    cursor: pointer;
+
+}
+@media(max-width:1200px)
+{
+    .lost
+    {
+        margin-left: 0px;
+    }
+}
+@media(max-width:992px)
+{
+    .content4 .imag11
+    {
+        max-width: 100%;
+    }
+   .first_stick p,.sec_stick p,.third_stick p,.first_stick h2,.sec_stick h2,.third_stick h2
+   {
+       text-align: center;
+   }
+ 
+   .icoo4 
+   {
+       margin: 40px 0px;
+      
+   }
+   .all
+   {
+       padding-top: 70px;
+       padding-left: 0px;
+   }
+   .third2 .imag
+   {
+       max-width: 100%;
+   }
+}
+@media(max-width:804px)
+{
+    .content4 .imag11
+    {
+        max-width: 100%;
+    }
+    .all
+    {
+        padding-top: 70px;
+        padding-left: 0px;
+    }
+    .icoo4 
+    {
+        margin: 40px 0px;
+       
+    }
+}
+@media(max-width:767px)
+{
+ #las1 h3,#las2 h3 ,#las3 h3,.lost,#las0 
+ {
+     text-align: center;
+ }
+ #las0
+ {
+     margin-bottom: 20px;
+ }
+
+}
+@media(max-width:436px)
+{
+    .firsticon .img1
+    {
+       width: 30%;
+    }
+    .but1
+    {
+        margin-bottom: 25px;
+        margin-left: 0px;
+    }
+    .but1,.but2
+    {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
